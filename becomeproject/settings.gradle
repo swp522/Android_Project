@@ -1,0 +1,2 @@
+include ':app', ':library_1'
+project(':library_1').projectDir = new File('library/android-async-http-master/android-async-http-master/library_1')

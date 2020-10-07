@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="#E0E0F8"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="130dp"
+        android:stretchColumns="*"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow android:background="#FFFF">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="5dp"
+                android:background="#A9BCF5"
+                android:text="이름"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/stdnumber"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="5dp"
+                android:background="#A9BCF5"
+                android:text="학번"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/realtime"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="5dp"
+                android:background="#A9BCF5"
+                android:text="상태"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/firstcheck"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="5dp"
+                android:background="#A9BCF5"
+                android:text="1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/secondcheck"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="5dp"
+                android:background="#A9BCF5"
+                android:text="2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/finalcheck"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#A9BCF5"
+                android:text="출석"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow android:background="#FFFF">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#E0E6F8"
+                android:text="김원종"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#E0E6F8"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/a1check"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#E0E6F8"
+                android:textAlignment="center">
+
+            </TextView>
+
+            <RadioButton
+                android:id="@+id/a1rad"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="#E0E6F8">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/a2rad"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="#E0E6F8">
+
+            </RadioButton>
+
+            <TextView
+                android:id="@+id/a2check"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#E0E6F8"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow android:background="#FFFF">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#E0E6F8"
+                android:text="박성원"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#E0E6F8"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/b1check"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#E0E6F8"
+                android:textAlignment="center">
+
+            </TextView>
+
+            <RadioButton
+                android:id="@+id/b1rad"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="#E0E6F8">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/b2rad"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="#E0E6F8">
+
+            </RadioButton>
+
+            <TextView
+                android:id="@+id/b2check"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#E0E6F8"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+
+        <TableRow android:background="#FFFF">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#E0E6F8"
+                android:text="정호근"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#E0E6F8"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/c1check"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#E0E6F8"
+                android:textAlignment="center">
+
+            </TextView>
+
+            <RadioButton
+                android:id="@+id/c1rad"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="#E0E6F8">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/c2rad"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="#E0E6F8">
+
+            </RadioButton>
+
+            <TextView
+                android:id="@+id/c2check"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#E0E6F8"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow android:background="#FFFF">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#E0E6F8"
+                android:text="김정훈"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#E0E6F8"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/d1check"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#E0E6F8"
+                android:textAlignment="center">
+
+            </TextView>
+
+            <RadioButton
+                android:id="@+id/d1rad"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="#E0E6F8">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/d2rad"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="#E0E6F8">
+
+            </RadioButton>
+
+            <TextView
+                android:id="@+id/d2check"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#E0E6F8"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+
+        <TableRow android:background="#FFFF">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#E0E6F8"
+                android:text="이재훈"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#E0E6F8"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/e1check"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#E0E6F8"
+                android:textAlignment="center">
+
+            </TextView>
+
+            <RadioButton
+                android:id="@+id/e1rad"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="#E0E6F8">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/e2rad"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="#E0E6F8">
+
+            </RadioButton>
+
+            <TextView
+                android:id="@+id/e2check"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                android:layout_marginBottom="5dp"
+                android:background="#E0E6F8"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/firstcheckbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="1차"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/secondcheckbutton"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/secondcheckbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:text="2차"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/finalcheckbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="수업완료"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toEndOf="@+id/secondcheckbutton"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>
